@@ -36,6 +36,7 @@ class HeroesListViewController : UIViewController {
         
         viewModel = HeroListViewModel()
         //PREPARANDOME PARA RECIBIR LOS DATOS QUE VIENE DEL VIEWMODEL
+        
         viewModel?.updateUI = { [weak self] heroes in
             self?.heroes = heroes
             self?.tableViewDataSource?.heroes = heroes
@@ -47,9 +48,9 @@ class HeroesListViewController : UIViewController {
                 let heroEntity = NSEntityDescription.insertNewObject(forEntityName: "Heroe", into: context) as! Heroe
                 heroEntity.name = hero.name
                 heroEntity.photo = hero.photo
-                heroEntity.id = hero.id.uuidString
+                heroEntity.id = UUID(uuidString: hero.id)
                 heroEntity.favorite = hero.favorite
-                heroEntity.descriptionCD = hero.descriptionCD
+                heroEntity.descriptionCD = hero.description
                 heroEntity.latitud = hero.latitud
                 heroEntity.longitud = hero.longitud
                 
@@ -59,6 +60,25 @@ class HeroesListViewController : UIViewController {
                     debugPrint("Error during saving context \(error)")
                 }
             }
+            // Fetch the heroes from Core Data
+            let request = NSFetchRequest<Heroe>(entityName: "Heroe")
+            let sortDescriptor = NSSortDescriptor(key: "name", ascending: true)
+            request.sortDescriptors = [sortDescriptor]
+
+            do {
+                let heroesCD = try context.fetch(request)
+                
+                //regalo del chat:
+                guard let heroes = self?.mapToHeroModel(heroesCD: heroesCD) else {
+                    return
+                }
+                self?.tableViewDataSource?.heroes = heroes
+                self?.mainView.heroesTableView.reloadData()
+
+            } catch let error as NSError {
+                debugPrint("Error during fetching from context \(error)")
+            }
+
         }
         
         getData()
@@ -92,6 +112,24 @@ class HeroesListViewController : UIViewController {
                 
             }
     }
+    
+    private func mapToHeroModel(heroesCD: [Heroe]) -> [HeroModel] {
+        var heroes = [HeroModel]()
+        for heroCD in heroesCD {
+            let hero = HeroModel(photo: heroCD.photo ?? "",
+                                 id: heroCD.id?.uuidString ?? "",
+                                 favorite: heroCD.favorite,
+                                 name: heroCD.name ?? "",
+                                 description: heroCD.descriptionCD ?? "",
+                                 latitud: heroCD.latitud,
+                                 longitud: heroCD.longitud)
+            heroes.append(hero)
+        }
+        return heroes
+    }
+
+
+
     
    
 }

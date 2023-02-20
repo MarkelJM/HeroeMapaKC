@@ -11,7 +11,6 @@
 		D31854FC2998188A009CFF86 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31854FB2998188A009CFF86 /* LoginViewController.swift */; };
 		D37A1CE129A39588001C2924 /* HeroesCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D37A1CDF29A39588001C2924 /* HeroesCD.xcdatamodeld */; };
 		D37A1CE329A39EC1001C2924 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37A1CE229A39EC1001C2924 /* CoreDataManager.swift */; };
-		D37A1CE529A3A9E1001C2924 /* AddHeroeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37A1CE429A3A9E1001C2924 /* AddHeroeViewController.swift */; };
 		D38A89FF29A13EF2009404D6 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A89FE29A13EF2009404D6 /* HomeTabBarViewController.swift */; };
 		D3AC3916299805A00058BA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC3915299805A00058BA9A /* AppDelegate.swift */; };
 		D3AC3918299805A00058BA9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC3917299805A00058BA9A /* SceneDelegate.swift */; };
@@ -62,7 +61,6 @@
 		D31854FB2998188A009CFF86 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D37A1CE029A39588001C2924 /* HeroesCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroesCD.xcdatamodel; sourceTree = "<group>"; };
 		D37A1CE229A39EC1001C2924 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		D37A1CE429A3A9E1001C2924 /* AddHeroeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHeroeViewController.swift; sourceTree = "<group>"; };
 		D38A89FE29A13EF2009404D6 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
 		D3AC3912299805A00058BA9A /* dragonballMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dragonballMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AC3915299805A00058BA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 			children = (
 				D37A1CDF29A39588001C2924 /* HeroesCD.xcdatamodeld */,
 				D37A1CE229A39EC1001C2924 /* CoreDataManager.swift */,
-				D37A1CE429A3A9E1001C2924 /* AddHeroeViewController.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -483,7 +480,6 @@
 				D3AC396629980CC40058BA9A /* HeroesListViewController.swift in Sources */,
 				D3AC396229980C280058BA9A /* HeroesListView.swift in Sources */,
 				D3AC3916299805A00058BA9A /* AppDelegate.swift in Sources */,
-				D37A1CE529A3A9E1001C2924 /* AddHeroeViewController.swift in Sources */,
 				D3AC3920299805A00058BA9A /* dragonballMap.xcdatamodeld in Sources */,
 				D37A1CE329A39EC1001C2924 /* CoreDataManager.swift in Sources */,
 				D38A89FF29A13EF2009404D6 /* HomeTabBarViewController.swift in Sources */,
