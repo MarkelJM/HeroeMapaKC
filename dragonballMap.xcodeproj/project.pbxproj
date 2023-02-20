@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31854FA2998186C009CFF86 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31854F92998186C009CFF86 /* LoginViewModel.swift */; };
+		D31854FC2998188A009CFF86 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31854FB2998188A009CFF86 /* LoginViewController.swift */; };
+		D37A1CE129A39588001C2924 /* HeroesCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D37A1CDF29A39588001C2924 /* HeroesCD.xcdatamodeld */; };
+		D37A1CE329A39EC1001C2924 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37A1CE229A39EC1001C2924 /* CoreDataManager.swift */; };
+		D37A1CE529A3A9E1001C2924 /* AddHeroeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37A1CE429A3A9E1001C2924 /* AddHeroeViewController.swift */; };
+		D38A89FF29A13EF2009404D6 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A89FE29A13EF2009404D6 /* HomeTabBarViewController.swift */; };
+		D3AC3916299805A00058BA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC3915299805A00058BA9A /* AppDelegate.swift */; };
+		D3AC3918299805A00058BA9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC3917299805A00058BA9A /* SceneDelegate.swift */; };
+		D3AC391A299805A00058BA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC3919299805A00058BA9A /* ViewController.swift */; };
+		D3AC391D299805A00058BA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AC391B299805A00058BA9A /* Main.storyboard */; };
+		D3AC3920299805A00058BA9A /* dragonballMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3AC391E299805A00058BA9A /* dragonballMap.xcdatamodeld */; };
+		D3AC3922299805A10058BA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AC3921299805A10058BA9A /* Assets.xcassets */; };
+		D3AC3925299805A10058BA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3AC3923299805A10058BA9A /* LaunchScreen.storyboard */; };
+		D3AC3930299805A10058BA9A /* dragonballMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC392F299805A10058BA9A /* dragonballMapTests.swift */; };
+		D3AC393A299805A10058BA9A /* dragonballMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC3939299805A10058BA9A /* dragonballMapUITests.swift */; };
+		D3AC393C299805A10058BA9A /* dragonballMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC393B299805A10058BA9A /* dragonballMapUITestsLaunchTests.swift */; };
+		D3AC3950299806B30058BA9A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC394F299806B30058BA9A /* LoginView.swift */; };
+		D3AC395529980B0A0058BA9A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC395429980B0A0058BA9A /* Constants.swift */; };
+		D3AC395829980BAA0058BA9A /* HeroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC395729980BAA0058BA9A /* HeroListViewModel.swift */; };
+		D3AC395E29980BFA0058BA9A /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC395D29980BFA0058BA9A /* ApiClient.swift */; };
+		D3AC396029980C0A0058BA9A /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC395F29980C0A0058BA9A /* HeroModel.swift */; };
+		D3AC396229980C280058BA9A /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC396129980C280058BA9A /* HeroesListView.swift */; };
+		D3AC396429980CAA0058BA9A /* HeroListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC396329980CAA0058BA9A /* HeroListViewCell.swift */; };
+		D3AC396629980CC40058BA9A /* HeroesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC396529980CC40058BA9A /* HeroesListViewController.swift */; };
+		D3AC396829980CDC0058BA9A /* HeroesListTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC396729980CDC0058BA9A /* HeroesListTableViewDataSource.swift */; };
+		D3AC396A29980CF70058BA9A /* HeroesListTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC396929980CF70058BA9A /* HeroesListTableViewDelegate.swift */; };
+		D3AC396D299811E30058BA9A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D3AC396C299811E30058BA9A /* Kingfisher */; };
+		D3AC3973299812AB0058BA9A /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC3972299812AB0058BA9A /* HeroDetailView.swift */; };
+		D3AC3975299812C00058BA9A /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC3974299812C00058BA9A /* HeroDetailViewController.swift */; };
+		D3B3C61B29A23A1D00581064 /* MapHeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3C61929A23A1D00581064 /* MapHeroesViewController.swift */; };
+		D3B3C61C29A23A1D00581064 /* MapHeroesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B3C61A29A23A1D00581064 /* MapHeroesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3AC392C299805A10058BA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3AC390A299805A00058BA9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AC3911299805A00058BA9A;
+			remoteInfo = dragonballMap;
+		};
+		D3AC3936299805A10058BA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3AC390A299805A00058BA9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AC3911299805A00058BA9A;
+			remoteInfo = dragonballMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D31854F92998186C009CFF86 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D31854FB2998188A009CFF86 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D37A1CE029A39588001C2924 /* HeroesCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroesCD.xcdatamodel; sourceTree = "<group>"; };
+		D37A1CE229A39EC1001C2924 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D37A1CE429A3A9E1001C2924 /* AddHeroeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHeroeViewController.swift; sourceTree = "<group>"; };
+		D38A89FE29A13EF2009404D6 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		D3AC3912299805A00058BA9A /* dragonballMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dragonballMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AC3915299805A00058BA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3AC3917299805A00058BA9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3AC3919299805A00058BA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3AC391C299805A00058BA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3AC391F299805A00058BA9A /* dragonballMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dragonballMap.xcdatamodel; sourceTree = "<group>"; };
+		D3AC3921299805A10058BA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3AC3924299805A10058BA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3AC3926299805A10058BA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3AC392B299805A10058BA9A /* dragonballMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dragonballMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AC392F299805A10058BA9A /* dragonballMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragonballMapTests.swift; sourceTree = "<group>"; };
+		D3AC3935299805A10058BA9A /* dragonballMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dragonballMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AC3939299805A10058BA9A /* dragonballMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragonballMapUITests.swift; sourceTree = "<group>"; };
+		D3AC393B299805A10058BA9A /* dragonballMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragonballMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3AC394F299806B30058BA9A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D3AC395429980B0A0058BA9A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D3AC395729980BAA0058BA9A /* HeroListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewModel.swift; sourceTree = "<group>"; };
+		D3AC395D29980BFA0058BA9A /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D3AC395F29980C0A0058BA9A /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		D3AC396129980C280058BA9A /* HeroesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListView.swift; sourceTree = "<group>"; };
+		D3AC396329980CAA0058BA9A /* HeroListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewCell.swift; sourceTree = "<group>"; };
+		D3AC396529980CC40058BA9A /* HeroesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListViewController.swift; sourceTree = "<group>"; };
+		D3AC396729980CDC0058BA9A /* HeroesListTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListTableViewDataSource.swift; sourceTree = "<group>"; };
+		D3AC396929980CF70058BA9A /* HeroesListTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListTableViewDelegate.swift; sourceTree = "<group>"; };
+		D3AC3972299812AB0058BA9A /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailView.swift; sourceTree = "<group>"; };
+		D3AC3974299812C00058BA9A /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
+		D3B3C61929A23A1D00581064 /* MapHeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapHeroesViewController.swift; sourceTree = "<group>"; };
+		D3B3C61A29A23A1D00581064 /* MapHeroesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapHeroesViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3AC390F299805A00058BA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AC396D299811E30058BA9A /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC3928299805A10058BA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC3932299805A10058BA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D37A1CDE29A3952B001C2924 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D37A1CDF29A39588001C2924 /* HeroesCD.xcdatamodeld */,
+				D37A1CE229A39EC1001C2924 /* CoreDataManager.swift */,
+				D37A1CE429A3A9E1001C2924 /* AddHeroeViewController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D38A89FD29A13E3E009404D6 /* HomeTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC395D29980BFA0058BA9A /* ApiClient.swift */,
+				D38A89FE29A13EF2009404D6 /* HomeTabBarViewController.swift */,
+			);
+			path = HomeTabBar;
+			sourceTree = "<group>";
+		};
+		D3AC3909299805A00058BA9A = {
+			isa = PBXGroup;
+			children = (
+				D3AC3914299805A00058BA9A /* dragonballMap */,
+				D3AC392E299805A10058BA9A /* dragonballMapTests */,
+				D3AC3938299805A10058BA9A /* dragonballMapUITests */,
+				D3AC3913299805A00058BA9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3AC3913299805A00058BA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC3912299805A00058BA9A /* dragonballMap.app */,
+				D3AC392B299805A10058BA9A /* dragonballMapTests.xctest */,
+				D3AC3935299805A10058BA9A /* dragonballMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3AC3914299805A00058BA9A /* dragonballMap */ = {
+			isa = PBXGroup;
+			children = (
+				D37A1CDE29A3952B001C2924 /* CoreData */,
+				D3B3C61829A239F200581064 /* MapHeroes */,
+				D38A89FD29A13E3E009404D6 /* HomeTabBar */,
+				D3AC396E299812110058BA9A /* HeroDetail */,
+				D3AC395929980BBE0058BA9A /* HeroesList */,
+				D3AC395629980B8B0058BA9A /* HeroListViewModel */,
+				D3AC395329980AF20058BA9A /* Utils */,
+				D3AC3949299806650058BA9A /* Login */,
+				D3AC3948299805C50058BA9A /* App */,
+				D3AC3919299805A00058BA9A /* ViewController.swift */,
+				D3AC391B299805A00058BA9A /* Main.storyboard */,
+				D3AC3921299805A10058BA9A /* Assets.xcassets */,
+				D3AC3923299805A10058BA9A /* LaunchScreen.storyboard */,
+				D3AC3926299805A10058BA9A /* Info.plist */,
+				D3AC391E299805A00058BA9A /* dragonballMap.xcdatamodeld */,
+			);
+			path = dragonballMap;
+			sourceTree = "<group>";
+		};
+		D3AC392E299805A10058BA9A /* dragonballMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC392F299805A10058BA9A /* dragonballMapTests.swift */,
+			);
+			path = dragonballMapTests;
+			sourceTree = "<group>";
+		};
+		D3AC3938299805A10058BA9A /* dragonballMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC3939299805A10058BA9A /* dragonballMapUITests.swift */,
+				D3AC393B299805A10058BA9A /* dragonballMapUITestsLaunchTests.swift */,
+			);
+			path = dragonballMapUITests;
+			sourceTree = "<group>";
+		};
+		D3AC3948299805C50058BA9A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC3917299805A00058BA9A /* SceneDelegate.swift */,
+				D3AC3915299805A00058BA9A /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D3AC3949299806650058BA9A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC394A299806840058BA9A /* Model */,
+				D3AC394B299806890058BA9A /* View */,
+				D3AC394C299806900058BA9A /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D3AC394A299806840058BA9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D31854F92998186C009CFF86 /* LoginViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3AC394B299806890058BA9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC394F299806B30058BA9A /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3AC394C299806900058BA9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D31854FB2998188A009CFF86 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3AC395329980AF20058BA9A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC395429980B0A0058BA9A /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D3AC395629980B8B0058BA9A /* HeroListViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC395729980BAA0058BA9A /* HeroListViewModel.swift */,
+			);
+			path = HeroListViewModel;
+			sourceTree = "<group>";
+		};
+		D3AC395929980BBE0058BA9A /* HeroesList */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC395A29980BC80058BA9A /* Model */,
+				D3AC395B29980BD00058BA9A /* View */,
+				D3AC395C29980BD80058BA9A /* Controller */,
+			);
+			path = HeroesList;
+			sourceTree = "<group>";
+		};
+		D3AC395A29980BC80058BA9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC395F29980C0A0058BA9A /* HeroModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3AC395B29980BD00058BA9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC396129980C280058BA9A /* HeroesListView.swift */,
+				D3AC396329980CAA0058BA9A /* HeroListViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3AC395C29980BD80058BA9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC396529980CC40058BA9A /* HeroesListViewController.swift */,
+				D3AC396729980CDC0058BA9A /* HeroesListTableViewDataSource.swift */,
+				D3AC396929980CF70058BA9A /* HeroesListTableViewDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3AC396E299812110058BA9A /* HeroDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC3971299812990058BA9A /* Model */,
+				D3AC3970299812940058BA9A /* View */,
+				D3AC396F2998128C0058BA9A /* Controller */,
+			);
+			path = HeroDetail;
+			sourceTree = "<group>";
+		};
+		D3AC396F2998128C0058BA9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC3974299812C00058BA9A /* HeroDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3AC3970299812940058BA9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC3972299812AB0058BA9A /* HeroDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3AC3971299812990058BA9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3B3C61829A239F200581064 /* MapHeroes */ = {
+			isa = PBXGroup;
+			children = (
+				D3B3C61929A23A1D00581064 /* MapHeroesViewController.swift */,
+				D3B3C61A29A23A1D00581064 /* MapHeroesViewController.xib */,
+			);
+			path = MapHeroes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3AC3911299805A00058BA9A /* dragonballMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC393F299805A10058BA9A /* Build configuration list for PBXNativeTarget "dragonballMap" */;
+			buildPhases = (
+				D3AC390E299805A00058BA9A /* Sources */,
+				D3AC390F299805A00058BA9A /* Frameworks */,
+				D3AC3910299805A00058BA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dragonballMap;
+			packageProductDependencies = (
+				D3AC396C299811E30058BA9A /* Kingfisher */,
+			);
+			productName = dragonballMap;
+			productReference = D3AC3912299805A00058BA9A /* dragonballMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3AC392A299805A10058BA9A /* dragonballMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC3942299805A10058BA9A /* Build configuration list for PBXNativeTarget "dragonballMapTests" */;
+			buildPhases = (
+				D3AC3927299805A10058BA9A /* Sources */,
+				D3AC3928299805A10058BA9A /* Frameworks */,
+				D3AC3929299805A10058BA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3AC392D299805A10058BA9A /* PBXTargetDependency */,
+			);
+			name = dragonballMapTests;
+			productName = dragonballMapTests;
+			productReference = D3AC392B299805A10058BA9A /* dragonballMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3AC3934299805A10058BA9A /* dragonballMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC3945299805A10058BA9A /* Build configuration list for PBXNativeTarget "dragonballMapUITests" */;
+			buildPhases = (
+				D3AC3931299805A10058BA9A /* Sources */,
+				D3AC3932299805A10058BA9A /* Frameworks */,
+				D3AC3933299805A10058BA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3AC3937299805A10058BA9A /* PBXTargetDependency */,
+			);
+			name = dragonballMapUITests;
+			productName = dragonballMapUITests;
+			productReference = D3AC3935299805A10058BA9A /* dragonballMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3AC390A299805A00058BA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D3AC3911299805A00058BA9A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D3AC392A299805A10058BA9A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D3AC3911299805A00058BA9A;
+					};
+					D3AC3934299805A10058BA9A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D3AC3911299805A00058BA9A;
+					};
+				};
+			};
+			buildConfigurationList = D3AC390D299805A00058BA9A /* Build configuration list for PBXProject "dragonballMap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3AC3909299805A00058BA9A;
+			packageReferences = (
+				D3AC396B299811E30058BA9A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = D3AC3913299805A00058BA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3AC3911299805A00058BA9A /* dragonballMap */,
+				D3AC392A299805A10058BA9A /* dragonballMapTests */,
+				D3AC3934299805A10058BA9A /* dragonballMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3AC3910299805A00058BA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AC3925299805A10058BA9A /* LaunchScreen.storyboard in Resources */,
+				D3AC3922299805A10058BA9A /* Assets.xcassets in Resources */,
+				D3AC391D299805A00058BA9A /* Main.storyboard in Resources */,
+				D3B3C61C29A23A1D00581064 /* MapHeroesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC3929299805A10058BA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC3933299805A10058BA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3AC390E299805A00058BA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31854FC2998188A009CFF86 /* LoginViewController.swift in Sources */,
+				D3AC3950299806B30058BA9A /* LoginView.swift in Sources */,
+				D3AC396029980C0A0058BA9A /* HeroModel.swift in Sources */,
+				D3AC391A299805A00058BA9A /* ViewController.swift in Sources */,
+				D3AC396A29980CF70058BA9A /* HeroesListTableViewDelegate.swift in Sources */,
+				D37A1CE129A39588001C2924 /* HeroesCD.xcdatamodeld in Sources */,
+				D3AC396629980CC40058BA9A /* HeroesListViewController.swift in Sources */,
+				D3AC396229980C280058BA9A /* HeroesListView.swift in Sources */,
+				D3AC3916299805A00058BA9A /* AppDelegate.swift in Sources */,
+				D37A1CE529A3A9E1001C2924 /* AddHeroeViewController.swift in Sources */,
+				D3AC3920299805A00058BA9A /* dragonballMap.xcdatamodeld in Sources */,
+				D37A1CE329A39EC1001C2924 /* CoreDataManager.swift in Sources */,
+				D38A89FF29A13EF2009404D6 /* HomeTabBarViewController.swift in Sources */,
+				D3AC3918299805A00058BA9A /* SceneDelegate.swift in Sources */,
+				D3B3C61B29A23A1D00581064 /* MapHeroesViewController.swift in Sources */,
+				D3AC3973299812AB0058BA9A /* HeroDetailView.swift in Sources */,
+				D31854FA2998186C009CFF86 /* LoginViewModel.swift in Sources */,
+				D3AC395829980BAA0058BA9A /* HeroListViewModel.swift in Sources */,
+				D3AC396429980CAA0058BA9A /* HeroListViewCell.swift in Sources */,
+				D3AC395529980B0A0058BA9A /* Constants.swift in Sources */,
+				D3AC3975299812C00058BA9A /* HeroDetailViewController.swift in Sources */,
+				D3AC396829980CDC0058BA9A /* HeroesListTableViewDataSource.swift in Sources */,
+				D3AC395E29980BFA0058BA9A /* ApiClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC3927299805A10058BA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AC3930299805A10058BA9A /* dragonballMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3AC3931299805A10058BA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AC393A299805A10058BA9A /* dragonballMapUITests.swift in Sources */,
+				D3AC393C299805A10058BA9A /* dragonballMapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3AC392D299805A10058BA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3AC3911299805A00058BA9A /* dragonballMap */;
+			targetProxy = D3AC392C299805A10058BA9A /* PBXContainerItemProxy */;
+		};
+		D3AC3937299805A10058BA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3AC3911299805A00058BA9A /* dragonballMap */;
+			targetProxy = D3AC3936299805A10058BA9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3AC391B299805A00058BA9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3AC391C299805A00058BA9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3AC3923299805A10058BA9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3AC3924299805A10058BA9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3AC393D299805A10058BA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3AC393E299805A10058BA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3AC3940299805A10058BA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dragonballMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markelJM.dragonballMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3AC3941299805A10058BA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dragonballMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markelJM.dragonballMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3AC3943299805A10058BA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markelJM.dragonballMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragonballMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dragonballMap";
+			};
+			name = Debug;
+		};
+		D3AC3944299805A10058BA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markelJM.dragonballMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dragonballMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dragonballMap";
+			};
+			name = Release;
+		};
+		D3AC3946299805A10058BA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markelJM.dragonballMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dragonballMap;
+			};
+			name = Debug;
+		};
+		D3AC3947299805A10058BA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markelJM.dragonballMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dragonballMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3AC390D299805A00058BA9A /* Build configuration list for PBXProject "dragonballMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC393D299805A10058BA9A /* Debug */,
+				D3AC393E299805A10058BA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AC393F299805A10058BA9A /* Build configuration list for PBXNativeTarget "dragonballMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC3940299805A10058BA9A /* Debug */,
+				D3AC3941299805A10058BA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AC3942299805A10058BA9A /* Build configuration list for PBXNativeTarget "dragonballMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC3943299805A10058BA9A /* Debug */,
+				D3AC3944299805A10058BA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AC3945299805A10058BA9A /* Build configuration list for PBXNativeTarget "dragonballMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC3946299805A10058BA9A /* Debug */,
+				D3AC3947299805A10058BA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3AC396B299811E30058BA9A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3AC396C299811E30058BA9A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3AC396B299811E30058BA9A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D37A1CDF29A39588001C2924 /* HeroesCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D37A1CE029A39588001C2924 /* HeroesCD.xcdatamodel */,
+			);
+			currentVersion = D37A1CE029A39588001C2924 /* HeroesCD.xcdatamodel */;
+			path = HeroesCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		D3AC391E299805A00058BA9A /* dragonballMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3AC391F299805A00058BA9A /* dragonballMap.xcdatamodel */,
+			);
+			currentVersion = D3AC391F299805A00058BA9A /* dragonballMap.xcdatamodel */;
+			path = dragonballMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3AC390A299805A00058BA9A /* Project object */;
+}
