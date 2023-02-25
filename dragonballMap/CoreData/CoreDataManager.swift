@@ -38,4 +38,19 @@ class CoredataManager {
         }
     }
     
+    func deleteAllHeroes() {
+        let context = AppDelegate.sharedAppDelegate.CoreDataManager.manageContext
+
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Heroe")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+
+        do {
+            try context.execute(deleteRequest)
+            try context.save()
+        } catch let error as NSError {
+            debugPrint("Error during deleting heroes from context \(error)")
+        }
+    }
+
+    
 }
